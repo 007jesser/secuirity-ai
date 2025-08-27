@@ -29,20 +29,7 @@ Frequently Asked Questions (FAQ)
 This project provides a real-time monitoring system for 12 AI models specialized in cybersecurity.
 The models are served through a Flask backend, while a React frontend displays a live dashboard that refreshes automatically every few seconds without reloading the page.
 
-2. Project Architecture
-final ai/
-├── back end/                 # Flask server + model loading
-│   ├── app.py                # REST endpoints + data simulation
-│   ├── model_loader.py       # Discover & load *.joblib / *.pt / *.h5
-│   ├── device_simulator.py   # Sends fake data to test the system
-│   └── data/                 # Attack logs in JSONL format
-│
-├── pageeee/ai-dashboard/     # React 18 + TailwindCSS app
-│   ├── src/api/              # REST calls (models.js, attacks.js)
-│   ├── src/components/       # UI cards and widgets
-│   └── src/pages/Dashboard.jsx # Main dashboard page
-│
-└── README_Arabic.md          # Arabic documentation
+2.
 
 3. Software Requirements
 Layer	Recommended Version
